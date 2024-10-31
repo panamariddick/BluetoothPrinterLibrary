@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BluetoothPrinterLib</string>
+    <string name="error_closing_printer_connection">Error al cerrar conexión con la impresora | Error closing connection with printer</string>
+    <string name="error_output_Stream">Error al cerrar OutputStream</string>
+    <string name="error_connection_print">No se encontró el dispositivo con la dirección proporcionada | Device was not found with the given address</string>
+</resources>
