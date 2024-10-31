@@ -16,7 +16,7 @@ if (isConnected) {
     bluetoothPrinter.printData(strData) //strData: Texto con saltos de linea mas amplios
     
     // Generar y enviar código QR
-    val qrBitmap = bluetoothPrinter.generateQR("https://openai.com")
+    val qrBitmap = bluetoothPrinter.generateQR("https://play.google.com/store/apps/details?id=admin.purple.metrobuspanamasaldo&hl=es_419")
     qrBitmap?.let { bluetoothPrinter.printBitmap(it) }
 
     // Cerrar conexión
