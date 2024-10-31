@@ -24,3 +24,13 @@ if (isConnected) {
 } else {
     Timber.e("No se pudo conectar a la impresora.")
 }
+
+## Compilación del archivo .aar
+
+Para compilar el archivo `.aar`, utiliza el siguiente comando en la consola:
+
+```bash
+./gradlew BluetoothPrinter:assemble
+
+Una vez finalizado el proceso, puedes ubicar el archivo .aar en la siguiente carpeta:
+\build\outputs\aar\BluetoothPrinter-release.aar
